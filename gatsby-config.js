@@ -2,15 +2,14 @@ require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    siteName: 'My Shop',
+    siteName: 'MyGames',
   },
   plugins: [
     'gatsby-plugin-sass',
     {
       resolve: `gatsby-source-datocms`,
       options: {
-        apiToken:
-          process.env.DATO_READONLY_API_KEY || '1b2fe1bfc8abf2e08343a75e444b4d',
+        apiToken:`29363a417007bf5f918be2687a6697`,
       },
     },
     {
